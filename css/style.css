@@ -240,24 +240,39 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 #fh5co-features .feature-left .icon {
-  display: table;
-  text-align: center;
+  display: block;
   width: 100px;
   height: 100px;
   margin: 0 auto;
-  background: #fff;
   margin-bottom: 20px;
+  background-color: #fff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
-#fh5co-features .feature-left .icon i {
-  font-size: 50px;
-  display: table-cell;
-  vertical-align: middle;
-  height: 100px;
-  color: #FF9000 !important;
+#fh5co-features .feature-left .icon.service-icon-1 {
+  background-image: url(../images/service-1.jpg);
+}
+#fh5co-features .feature-left .icon.service-icon-2 {
+  background-image: url(../images/service-2.jpg);
+}
+#fh5co-features .feature-left .icon.service-icon-3 {
+  background-image: url(../images/service-3.jpg);
+}
+#fh5co-features .feature-left .icon.service-icon-4 {
+  background-image: url(../images/service-4.jpg);
+}
+#fh5co-features .feature-left .icon.service-icon-5 {
+  background-image: url(../images/service-5.jpg);
+}
+#fh5co-features .feature-left .icon.service-icon-6 {
+  background-image: url(../images/service-6.jpg);
 }
 #fh5co-features .feature-left .feature-copy {
   width: 100%;
